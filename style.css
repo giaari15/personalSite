@@ -20,6 +20,7 @@ html, body {
     text-decoration: none;
     font-size: large;
     margin-inline-end: 1rem;
+    font-weight: bold;
 }
 
 .nav-links:hover {
@@ -44,6 +45,11 @@ html, body {
     color: pink;
     text-decoration: none;
     margin-inline-end: 2rem;
+    font-weight: bold;
+}
+
+.contact-links:hover {
+    color:rgb(247, 106, 130);
 }
 
 .about {
@@ -63,5 +69,36 @@ img {
 
 .featured {
     margin-top: 2rem;
-    border: 1px solid #ccc;
+    border: 5px solid pink;
+    box-shadow: 0 0 8px 0 #ccc;
+}
+
+.featured a {
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+
+.featured a:hover {
+    color:rgb(247, 106, 130);
+}
+
+.project {
+    display: flex;
+}
+
+.project iframe {
+    width: 100rem;
+    height: 18rem;
+}
+
+.resume {
+    justify-content: center;
+    margin-inline: 15%;
+    padding: 5rem;
+}
+
+.resume iframe {
+    width: 100%;
+    height: 40rem;
 }
