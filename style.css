@@ -39,6 +39,8 @@ html, body {
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
+    border: 2px solid white;
+    background-color: white;
 }
 
 .contact-links {
@@ -62,14 +64,13 @@ html, body {
     margin-block: 0.5rem;
 }
 
-img {
+.about img {
     max-width: 425px;
     max-height: auto;
 }
 
 .featured {
     margin-top: 2rem;
-    border: 5px solid pink;
     box-shadow: 0 0 8px 0 #ccc;
 }
 
@@ -84,12 +85,13 @@ img {
 }
 
 .project {
-    display: flex;
+    height: 100%;
+    max-height: 15rem;
+    overflow: scroll;
 }
 
-.project iframe {
-    width: 100rem;
-    height: 18rem;
+.project img {
+    width:100%;
 }
 
 .resume {
@@ -101,4 +103,34 @@ img {
 .resume iframe {
     width: 100%;
     height: 40rem;
+}
+
+.proj-links a {
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+
+.proj-links a:hover {
+    color:rgb(247, 106, 130);
+}
+
+.proj-contents {
+    display: flex;
+    margin: 2rem;
+    overflow-inline: auto;
+}
+
+.proj-contents ul {
+    padding-left: 2rem;
+}
+
+.proj-contents img {
+    height: 30rem;
+    width: auto;
+    padding-left: 2rem;
+}
+
+.proj-contents ifram {
+    padding-left: 2rem;;
 }
